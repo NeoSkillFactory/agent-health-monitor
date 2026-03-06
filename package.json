@@ -1,0 +1,19 @@
+{
+  "name": "agent-health-monitor",
+  "version": "1.0.0",
+  "description": "Automatically monitors and restarts crashed or unresponsive OpenClaw agents with configurable alerts",
+  "main": "scripts/monitor.js",
+  "bin": {
+    "agent-health-monitor": "scripts/cli.js"
+  },
+  "scripts": {
+    "start": "node scripts/monitor.js",
+    "cli": "node scripts/cli.js",
+    "test": "node --test scripts/*.test.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "keywords": ["openclaw", "agent", "monitor", "health", "restart"],
+  "license": "MIT"
+}

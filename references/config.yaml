@@ -1,0 +1,26 @@
+# Agent Health Monitor Configuration
+# Copy this file and customize for your environment
+
+monitor:
+  # Polling interval in seconds
+  interval: 30
+  # Agent response timeout in seconds
+  timeout: 10
+  # Maximum restart attempts before escalating
+  max_retries: 3
+
+alerts:
+  # Enable/disable alert notifications
+  enabled: true
+  # Notification channels: stdout, file
+  channels:
+    - stdout
+  # Minimum severity to trigger alerts: info, warning, error, critical
+  severity_threshold: warning
+
+# List of agent IDs to monitor
+# Example:
+#   agents:
+#     - "my-agent-1"
+#     - "my-agent-2"
+agents: []
