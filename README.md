@@ -32,8 +32,6 @@ See `references/config.yaml` for the full configuration schema. Key fields:
 
 Source code: [github.com/NeoSkillFactory/agent-health-monitor](https://github.com/NeoSkillFactory/agent-health-monitor)
 
-**Price suggestion:** $20 USD
-
 ## License
 
 MIT © NeoSkillFactory
